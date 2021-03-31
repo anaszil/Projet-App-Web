@@ -1,0 +1,153 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background: url(images/background.jpg) #050505;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: inherit;
+}
+#img_track {
+    background-image: url(images/icon.png);
+    min-height: 266px;
+    width: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-top: 40px;
+    background: rgb(115 115 115 / 70%);
+    color: #fff;
+    opacity: 0.8;
+    padding: 0;
+    max-width: 1140px;
+}
+.input-group {
+    padding: 0 12px;
+}
+#other_titles{
+  color:#fff;
+  max-height: 400px;
+  overflow-y: scroll;
+  display: block;
+}
+.table{
+  color:#fff;
+}
+input#search {
+    border-radius: 0;
+}
+audio::-webkit-media-controls-panel{
+  background-color: #e6e6e6;
+}
+audio{
+  background-color:#e6e6e6;
+  width: 100%;
+  outline: 0;
+}
+div#title {
+    font-size: 38px;
+    text-align: left;
+    padding: 0px 100px;
+    padding-top: 40px;
+    color: #fff;
+}
+div#artist {
+    font-size: 20px;
+    text-align: left;
+    padding: 0 100px;
+    padding-bottom: 84.5px;
+    color: #000;
+}
+.player{
+  height: 54px;
+}
+#search_btn{
+  background: #535869;
+    color: #fff;
+    border-radius: 0;
+}
+#other_titles tr {
+    cursor: pointer;
+}
+#other_titles tr:hover {
+    background: #100f0f !important;
+}
+
+i.fa.fa-refresh:hover {
+    color: #00c546;
+}
+
+
+
+/* CSS OF File drag and Drop*/
+
+
+#drop-area {
+  border: 2px dashed #ccc;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 20px;
+}
+#drop-area.highlight {
+  border-color: #000;
+}
+
+p {
+  margin: 0;
+}
+p#formError {
+  visibility: hidden;
+  background-color: #cc0000;
+  border-radius: 6px;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+  width: 80vw;
+  max-width: 480px;
+  margin: 1rem auto 0;
+}
+
+.my-form {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.my-form p{
+  margin: 15px 0;
+}
+#progress-bar {
+  display: block;
+margin: 1rem auto 0;
+width: 60%;
+display: none;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button:hover {
+  background: #100f0f;
+}
+
+#fileElem {
+  display: none;
+}
+.table{
+  margin-bottom: -1px;
+}
+
+@media only screen and (max-width: 991px){
+  #img_track{
+    background-size: contain;
+    background-position: bottom;
+  }
+}
