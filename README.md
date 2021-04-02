@@ -8,4 +8,4 @@ Pour le bon fonctionnement de l'application, supprimer le dossier node_modules e
 - npm install --save get-mp3-duration
 - npm install formidable
 
- Apres avoir lancer le serveur. Il ne reste que d'aller dans le navigateur et taper : http://localhost:8080
+ Apres avoir lancer le serveur. Il ne reste que d'aller dans le navigateur et taper : http://localhost:8080.
